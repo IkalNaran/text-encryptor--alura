@@ -90,6 +90,10 @@
     background-color: #BFC9CA ;
 }
 
+.botton-copie{
+
+    margin: 30px 25% 0 25% ;
+}
 .botton-copie:focus{
     color: #85929E;
 
@@ -98,9 +102,11 @@
 
 .encrypterdecryptor-box{
     flex: 1;
+    text-align: center;
+
 }
 
-.encrypterdecryptor-container{
+#encrypterdecryptor-container{
     width: 400px;
     height: 90%;
     margin: auto;
@@ -114,10 +120,14 @@
 
 .encrypterdecryptor{
     display: inline-block;
+    background-color: #EAECEE;
     font-size: 20px;
-    margin: 20px 0 0;
-    width: 100%;
+    margin: 30px 0  0 0;
+    width: 400px;
     height: 80%;
+    border-radius: 10px;
+    border: none;
+    resize: none;
 }
 
 .result-dep{ 

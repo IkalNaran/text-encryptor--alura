@@ -3,10 +3,9 @@ let textBox = document.querySelector(".text-encrydescry--box");
 let bottonEncrypter = document.querySelector(".botton-encrypter"); 
 let bottonDencrypter = document.querySelector(".botton-dencrypter");
 let result = document.querySelector(".result-dep");
-let textEncrypter = document.querySelector(".encrypterdecryptor-container");
+let textEncrypter = document.querySelector(".encrypterdecryptor-box");
 let desEn = document.querySelector(".encrypterdecryptor")
 let munheca = document.querySelector(".draw-munheca")
-
 
 let words = ["a","e","i","o","u"];
 let encrypter = ["ai","enter","imes","ober","ufat"]; 
@@ -44,20 +43,23 @@ function desencriptadorDes(){
     return localtext;
 }
 
+
 function emptyAndAddEn(){
     if(textBox.value == ""){
         return;
     }else
+
     encrypterDes();
-   textEncrypter.innerHTML = `<div class="encrypterdecryptor"> ${localtext} </div><input class='botton botton-copie' type='submit' value='copie'>` ;    
+   textEncrypter.innerHTML = `<textarea class="encrypterdecryptor" > ${localtext} </textarea><input class='botton botton-copie' type='submit' value='copie'>` ;    
 }
 
 function emptyAndAddSDes(){ 
     if(textBox.value == ""){
         return munheca;
     }else
+
     desencriptadorDes();
-    textEncrypter.innerHTML = `<div class="encrypterdecryptor"> ${localtext} </div><input class='botton botton-copie' type='submit' value='copie'>` ;    
+    textEncrypter.innerHTML = `<textarea class="encrypterdecryptor" > ${localtext} </textarea><input class='botton botton-copie' type='submit' value='copie'>` ;    
 }
 
 bottonEncrypter.onclick = emptyAndAddEn;
