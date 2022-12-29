@@ -1,0 +1,136 @@
+
+/*HEADER*/
+.logo{ 
+    margin-top: 10px;
+}
+/*AREA DE TEXTO*/
+.text-box{
+    flex: 1;
+    width: 80%;
+}
+
+.text-container{
+    margin: 10%;
+}
+
+.advertencia{
+    display: inline-block;
+}
+.title-text{
+    display: block;
+    margin-left: 50px;
+}
+
+.img-vector{ 
+    margin:0  10px 0 0 ; 
+}
+
+.text-encrydescry--box{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #F7F9F9;
+    font-size: 30px;
+    width: 100%;
+    height: 500px;
+    background-color: #34495E;
+    border: none;
+    resize: none;
+}
+
+.text-encrydescry--box:focus{
+    resize: none;
+    outline: none;
+}
+
+.botton{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    background: #85929E;
+    color: #F7F9F9;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    resize: none;
+    transition: 0.3s;
+}
+
+.botton:hover{ 
+    transition: 0.3s;
+    
+}
+
+.botton:focus{ 
+    background-color: #85929E ;
+    transform: scale(0.99);
+    transition: 0s;
+}
+
+.botton-encrypter{
+    background-color: #F1C40F;
+    color: #34495E;
+}
+
+.botton-encrypter:hover{
+    background: #D4AC0D ;
+
+}
+
+.botton-encrypter:focus{
+    background-color: #c7a20d;
+    
+}
+.botton-dencrypter{
+    background-color: #EAECEE;
+    color: #34495E;
+}
+
+.botton-dencrypter:hover{
+    background-color: #BFC9CA ;
+}
+
+.botton-copie:focus{
+    color: #85929E;
+
+}
+/*AREA DE ENCRIPTADOR*/
+
+.encrypterdecryptor-box{
+    flex: 1;
+}
+
+.encrypterdecryptor-container{
+    width: 400px;
+    height: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    background: #F7F9F9;
+    text-align: center;
+    box-shadow:0 0  10px #1B2631;
+    color: #1B2631;
+}
+
+.encrypterdecryptor{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 0 0;
+    width: 100%;
+    height: 80%;
+}
+
+.result-dep{ 
+    margin-top: 10px;
+    width: 90%;
+    height: 80%;
+}
+.munheca{
+    width: 100%;
+    margin: 35%  auto  0;
+}
+
+.text-munheca{
+    padding: 10px 0;
+    color: #34495E;
+}

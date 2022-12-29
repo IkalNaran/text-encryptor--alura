@@ -1,0 +1,213 @@
+@import url(style-responsive-phone.css);
+@import url(style-class.css);
+
+body{
+    background: #34495E;
+    font-family: 'Montserrat', sans-serif;
+    color: #F7F9F9 ;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+main{
+    display:flex;
+    width: 100%;
+    height: 80vh;
+    background-color: #34495E;
+}
+
+fieldset{ 
+    text-align: center;
+}
+
+footer{ 
+    text-align: center;
+    width: 100%;
+    height: 10vh;    
+}
+
+
+figcaption{ 
+    color: #34495E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1200px){
+    body{
+        height: 100vh;
+    }
+    header{
+        height: 15;
+    }
+    main{
+        display: block;
+        height: 85vh;
+    }
+    .text-box{
+        width: 100%;
+        height: 60vh;
+        margin: 0;
+    }
+    .text-container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .title-text{
+        margin: 0 0 0 30px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .advertencia{
+        display: inline-block;
+        align-items: center;
+    }
+
+    .text-encrydescry--box{
+        width: 90%;
+        height: 70%;
+        font-size: 25px;
+    }
+
+    fielset{ 
+        margin: 0  auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .botton{
+        width: 250px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+    }
+
+    .botton-copie{
+       margin: 0;
+    }
+    
+    .encrypterdecryptor{
+        height:100px;
+    }
+    .encrypterdecryptor-box{ 
+        width: 100%;
+        height: 30vh;
+        margin-top: 0px;
+    }
+
+    .encrypterdecryptor-container{
+        margin: 0px auto;
+        width: 80%;
+        height: 80%;
+    }
+
+    .munheca{
+        display: none;
+        margin: 0;
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    figcaption{
+        padding-top: 12%;
+        color: #34495E;
+    }
+
+    footer{
+        height: 5vh;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    body{
+        height: 100vh;
+    }
+    header{
+        height: 15;
+    }
+    main{
+        display: block;
+        height: 85vh;
+    }
+    .text-box{
+        width: 100%;
+        height: 55vh;
+        margin: 0;
+    }
+    .text-container{
+        width: 100%;
+        margin: 0;
+    }
+    .title-text{
+        margin: 0 0 0 30px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .advertencia{
+        display: inline-block;
+        align-items: center;
+    }
+
+    .text-encrydescry--box{
+        width: 80%;
+        height: 250px;
+        font-size: 25px;
+    }
+
+    fielset{ 
+        margin: 0  auto;
+        width: 100%;
+        height: 200px;
+    }
+
+    .botton{
+        width: 85%;
+        margin-bottom: 15px;
+        border-radius: 30px;
+    }
+
+    .botton-copie{
+       margin: 0;
+    }
+    
+    .encrypterdecryptor{
+        height:100px;
+    }
+    .encrypterdecryptor-box{ 
+        width: 100%;
+        height: 30vh;
+        margin-top: 0px;
+    }
+
+    .encrypterdecryptor-container{
+        margin-top: 30px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .munheca{
+        display: none;
+        margin: 0;
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    figcaption{
+        padding-top: 15%;
+        color: #34495E;
+    }
+
+    footer{
+        height: 5vh;
+    }
+
+}

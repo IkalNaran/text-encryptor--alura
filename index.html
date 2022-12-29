@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="icons/Logo.svg" alt="Logotipo de Alura">
+        <h1 class="title-logo"> encrypter sushi <h1>
+    </header>
+    <main>
+        <section class="text-box">
+            <div class="text-container">
+                <label class="title-text" for="text"><img class="img-vector" src="icons/Vector.svg" alt=""> <p class="advertencia">Solo letras minúsculas y sin acentos</p> </label>
+                <textarea class="text-encrydescry--box" id="text" cols="30" rows="10" placeholder="Ingresa el texto aqui" autofocus required></textarea>
+                <fieldset>
+                    <input class="botton botton-encrypter" type="submit" value="encrypter">
+                    <input class="botton botton-dencrypter" type="submit" value="decryptor">
+                </fieldset>
+            </div>
+        </section>
+        <section class="encrypterdecryptor-box">
+            <div class="encrypterdecryptor-container">
+                <figure id="draw-munheca">
+                    <img class="munheca" src="image/Muñeco.svg" alt="">
+                    <figcaption>Ningun mensaje fue encontrado</figcaption>
+                    <p class="text-munheca">Ingrese el texto que desea encriptar o desencriptar</p>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Hecho por Ivan Mauricio Velazquez Trejo</p>
+    </footer>
+    <script src="script.js"></script>
+</html>
